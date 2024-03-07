@@ -1,5 +1,5 @@
 body {
-    background: #7b87ad;
+    background: #1B2838;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -14,4 +14,28 @@ body {
   margin-bottom: 5px;
  margin:auto;
 }
-div {display: block;}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 36%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;}
+
+{margin: 0;
+padding: 0;}
+
+header 
+{background: black;
+color: aliceblue;
+height: 9vh;
+margin-bottom: 50px;}
+
+footer {background: black;
+  height: 7vh;}
+
+header,footer {display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(#242730,#3f4c6a);
+}
