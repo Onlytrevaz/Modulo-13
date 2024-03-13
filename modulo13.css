@@ -14,7 +14,6 @@ body {
   margin-bottom: 5px;
  margin:auto;
 }
-
 .carousel-control-prev, .carousel-control-next {
   width: 36%;
 }
@@ -24,6 +23,7 @@ body {
 
 {margin: 0;
 padding: 0;}
+
 
 header 
 {background: black;
