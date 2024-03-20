@@ -15,11 +15,18 @@ body {
  margin:auto;
 }
 .carousel-control-prev, .carousel-control-next {
-  width: 36%;
+  width: 40%;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
   height: 40px;
-  width: 40px;}
+  width: 30px;}
+  @media (max-width: 767px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 0;
+      width: 0;
+    }
+  }
 
 {margin: 0;
 padding: 0;}
@@ -54,7 +61,6 @@ color: white;
 border: 3px solid black;
 border-radius: 0.1%;
 ;}
-
 p1 {
     color: white;
     font-family: Arial, sans-serif; 
