@@ -33,8 +33,11 @@ margin-bottom: 50px;}
 
 footer {background: black;
   height: 7vh;
-margin-top: 555px;}
-
+margin-top: 645px;}
+@media only screen and (max-width: 600px) 
+{
+footer {margin-top: 50cm;}
+}
 header,footer {display: flex;
 justify-content: center;
 align-items: center;
@@ -66,3 +69,4 @@ img {
   border: 3px solid black;
   border-radius: 0.5%;
 }
+
